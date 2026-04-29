@@ -1,8 +1,8 @@
-import Home from "./pages/Home/Home";
+import Products from "./pages/Products/Products";
 import "./App.css";
 
 function App() {
-  return <Home />;
+  return <Products />;
 }
 
 export default App;
