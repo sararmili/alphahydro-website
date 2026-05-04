@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -33,12 +34,23 @@ export default function Navbar() {
             </div>
           </div>
 
-          <nav className="menu-links">
-            <a className="active" href="/">Accueil</a>
-            <a href="/produits">Produits</a>
-            <a href="/about">À Propos</a>
-            <a href="/contact">Contact</a>
-          </nav>
+  <nav className="menu-links">
+  <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+    Accueil
+  </NavLink>
+
+  <NavLink to="/produits" className={({ isActive }) => (isActive ? "active" : "")}>
+    Produits
+  </NavLink>
+
+  <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+    À Propos
+  </NavLink>
+
+  <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+    Contact
+  </NavLink>
+</nav>
 
         <div className="right-contact">
   
