@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { products } from "../../data/products";
 import "./Products.css";
+import { Link } from "react-router-dom";
 
 function Products() {
   const [search, setSearch] = useState("");
@@ -114,14 +115,14 @@ function Products() {
                     <p className="stock">● En stock</p>
 
                     <div className="product-actions">
-                      <a
-                        className="details-btn"
-                        href={`https://wa.me/212600000000?text=Bonjour, je veux ${product.name}`}
+                      <Link
+                        className="details-btn" to={`/produits/${product.id}`}
+                        
                         target="_blank"
                         rel="noreferrer"
                       >
                         👁 Détails
-                      </a>
+                      </Link>
 
                       
                     </div>

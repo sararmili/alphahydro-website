@@ -14,7 +14,9 @@ export default function Navbar() {
   </span>
 
   <span>
-    <FaPhoneAlt className="top-icon" /> Contact
+    <a href="tel:+212600000000">
+     <FaPhoneAlt className="top-icon" /> Contact
+    </a>
   </span>
 </div>
 
@@ -34,6 +36,7 @@ export default function Navbar() {
             </div>
           </div>
 
+<<<<<<< HEAD:src/components/Header/Navbar/Navbar.jsx
   <nav className="menu-links">
   <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
     Accueil
@@ -51,6 +54,16 @@ export default function Navbar() {
     Contact
   </NavLink>
 </nav>
+=======
+          <nav className="menu-links">
+            <a className="active" href="/">Accueil</a>
+            <a href="/produits">Produits</a>
+            <a href="/about">À Propos</a>
+            <a href="tel:+212600000000">
+              <FaPhoneAlt className="top-icon" /> Contact
+            </a>
+          </nav>
+>>>>>>> cbde6eeb34b1197f7c109ce14eaf5dacef20efa6:src/components/Navbar/Navbar.jsx
 
         <div className="right-contact">
   
