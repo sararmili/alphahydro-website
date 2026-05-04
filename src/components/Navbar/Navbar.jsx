@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -13,7 +14,9 @@ export default function Navbar() {
   </span>
 
   <span>
-    <FaPhoneAlt className="top-icon" /> Contact
+    <a href="tel:+212600000000">
+     <FaPhoneAlt className="top-icon" /> Contact
+    </a>
   </span>
 </div>
 
@@ -37,7 +40,9 @@ export default function Navbar() {
             <a className="active" href="/">Accueil</a>
             <a href="/produits">Produits</a>
             <a href="/about">À Propos</a>
-            <a href="/contact">Contact</a>
+            <a href="tel:+212600000000">
+              <FaPhoneAlt className="top-icon" /> Contact
+            </a>
           </nav>
 
         <div className="right-contact">
