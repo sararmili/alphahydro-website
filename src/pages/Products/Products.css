@@ -8,16 +8,22 @@
 }
 
 .products-hero {
-  background: #ffffff;
+  background: #0f172a;
   padding: 25px 10%;
   border-bottom: 1px solid #e5e7eb;
+  color: white !important;
 }
 .products-hero h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #0f172a;
+  color: #ffffff;
   margin-bottom: 8px;
+}
+.products-hero p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
 }
 .filters-box {
   width: 230px;
@@ -57,11 +63,6 @@
   height: 13px;
   accent-color: #007bff;
   cursor: pointer;
-}
-.products-hero p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  color: #64748b;
 }
 
 .products-container {

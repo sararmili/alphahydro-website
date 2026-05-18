@@ -21,7 +21,7 @@ export default function Footer() {
               <FaFacebookF />
               </a>
 
-              <a href="https://wa.me/212623456789" target="_blank" rel="noreferrer">
+              <a href="https://wa.me/212689777336" target="_blank" rel="noreferrer">
               <FaWhatsapp />
               </a>
           </div>
@@ -33,7 +33,6 @@ export default function Footer() {
           <ul>
             <li>Accueil</li>
             <li>Produits</li>
-            <li>Catégories</li>
             <li>À Propos</li>
             <li>Contact</li>
           </ul>
@@ -45,23 +44,19 @@ export default function Footer() {
 
           <div className="contact-item">
             <FaMapMarkerAlt />
-            <span>Zone Industrielle Sud</span>
+            <span>ANGLE DE MOHAMED CHAOUI ET CKB BNOU NAFIAE Imm 42 - TAZA</span>
           </div>
 
-          <div className="contact-item">
-            <span>123 Avenue des Poids Lourds</span>
-          </div>
-
-          
+         
 
           <div className="contact-item">
             <FaPhoneAlt />
-            <span>+212 6 23 45 67 89</span>
+            <span>+212 6 89 77 73 36</span>
           </div>
 
           <div className="contact-item">
             <FaEnvelope />
-            <span>contact@alphahydro.fr</span>
+            <span>stealphahydro@gmail.com</span>
           </div>
         </div>
 
@@ -71,18 +66,14 @@ export default function Footer() {
 
           <div className="contact-item">
             <FaClock />
-            <span>Lundi - Vendredi</span>
-          </div>
-          <p>8h00 - 18h00</p>
-
-          <div className="contact-item">
-            <FaClock />
-            <span>Samedi</span>
+            <span>Lundi - Samedi</span>
           </div>
           <p>9h00 - 13h00</p>
+          <p>15h00 - 18h30</p>
 
           <div className="contact-item">
             <FaClock />
+           
             <span>Dimanche</span>
           </div>
           <p>Fermé</p>

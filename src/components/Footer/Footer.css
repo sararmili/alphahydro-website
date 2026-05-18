@@ -58,6 +58,7 @@
   height: 18px;
 }
 
+
 .socials a:hover {
   background: #ff9f00;
   color: #0f172a;
@@ -80,11 +81,24 @@
 /* contact */
 .contact-item {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 6px 0;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 8px 0;
 }
 
+.contact-item svg {
+  color: #ff9f00;
+  font-size: 18px;
+  min-width: 18px;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.contact-item .location-icon {
+  font-size: 22px;
+  min-width: 22px;
+  margin-top: 5px;
+}
 .contact-item svg {
   color: #ff9f00;
 }
