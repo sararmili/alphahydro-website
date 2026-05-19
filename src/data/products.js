@@ -16,7 +16,7 @@ import Reservoir from "../assets/images/Reservoir.png";
 import pompePistonImg from "../assets/images/pompePistonImg.png";
 import verinsImg from "../assets/images/verinsImg.png";
 import commandePneumatiqueImg from "../assets/images/commandePneumatiqueImg.png";
-
+import flexibleHydraulique from "../assets/images/flexibleHydraulique.png";
 
 
 
@@ -186,6 +186,17 @@ export const products = [
   ref: "CMD-019-HD",
   image: commandePneumatiqueImg,
   description: "Commande pneumatique haute précision pour systèmes industriels et engins de chantier lourds.",
+},
+{
+  id: 20,
+  name: "Flexible hydraulique renforcé",
+  category: "Hydraulique",
+  brand: "MAN",
+  status: "Disponible",
+  ref: "FLX-020-HD",
+  image: flexibleHydraulique,
+  description:
+    "Flexible hydraulique haute pression pour camions, engins lourds et systèmes industriels.",
 },
   
 
