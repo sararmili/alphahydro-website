@@ -43,7 +43,7 @@ export default function Footer() {
           <h3>Contact</h3>
 
           <div className="contact-item">
-            <FaMapMarkerAlt />
+            <FaMapMarkerAlt className="location-icon" />
             <span>ANGLE DE MOHAMED CHAOUI ET CKB BNOU NAFIAE Imm 42 - TAZA</span>
           </div>
 

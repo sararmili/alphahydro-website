@@ -14,7 +14,7 @@ export default function Navbar() {
   </span>
 
   <span>
-    <a href="tel:+212600000000">
+    <a href="tel:+212689777336">
      <FaPhoneAlt className="top-icon" /> Contact
     </a>
   </span>
@@ -37,17 +37,26 @@ export default function Navbar() {
           </div>
 
           <nav className="menu-links">
-            <a className="active" href="/">Accueil</a>
-            <a href="/produits">Produits</a>
-            <a href="/about">À Propos</a>
-            <a href="tel:+212600000000">
+            <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""}>
+              Accueil
+            </NavLink>
+
+            <NavLink to="/produits" className={({ isActive }) => isActive ? "active" : ""}>
+              Produits
+            </NavLink>
+
+            <NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>
+              À Propos
+            </NavLink>
+
+            <a href="tel:+212689777336">
               <FaPhoneAlt className="top-icon" /> Contact
             </a>
           </nav>
 
         <div className="right-contact">
   
-    <a className="whatsapp-main" href="https://wa.me/212600000000">
+    <a className="whatsapp-main" href="https://wa.me/212689777336">
   <FaWhatsapp className="whatsapp-icon" />
   WhatsApp
 </a>
