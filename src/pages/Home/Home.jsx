@@ -11,16 +11,18 @@ import Navbar from "../../components/Header/Navbar/Navbar";
   FaArrowRight,
 } from "react-icons/fa";
 
+import { FaHeadset } from "react-icons/fa";
 import { GiCarWheel, GiGearHammer } from "react-icons/gi";
 import heroVideo from "../../assets/videos/alphaHydro.mp4";
 import bgCategories from "../../assets/images/categoryBg.png";
-import moteurImg from "../../assets/images/catimages/1.png";
+import moteurImg from "../../assets/images/catimages/8.jpg";
 import huileImg from "../../assets/images/catimages/2.png";
 import freinageImg from "../../assets/images/catimages/3.png";
 import suspensionImg from "../../assets/images/catimages/4.png";
 import transmissionImg from "../../assets/images/catimages/5.png";
 import electriciteImg from "../../assets/images/catimages/6.png";
 import aboutImg from "../../assets/images/about.png";
+import heroAbout from "../../assets/images/Apropos.png";
 
 const categories = [
   {
@@ -41,12 +43,7 @@ const categories = [
     icon: <GiCarWheel />,
     image: freinageImg,
   },
-  {
-    title: "Suspension",
-    desc: "Suspension et amortisseurs",
-    icon: <GiGearHammer />,
-    image: suspensionImg,
-  },
+
   {
     title: "Transmission",
     desc: "Pièces de transmission",
@@ -64,7 +61,7 @@ const categories = [
 export default function Home() {
   return (
     <div className="home-page">
-      <Navbar />
+      
 
       <section className="hero">
        <video className="hero-bg" autoPlay loop muted playsInline>
@@ -195,10 +192,10 @@ export default function Home() {
               </div>
 
              <div className="feature">
-  <FaTruck className="feature-icon" />
+  <FaHeadset className="feature-icon" />
   <div>
     <h4>SERVICE RAPIDE</h4>
-    <p>Support client réactif et livraison rapide</p>
+    <p>Disponibilité rapide et support de qualité</p>
   </div>
 </div>
 
@@ -218,17 +215,17 @@ export default function Home() {
 
         <div className="about-stats">
           <div className="stat">
-            <h3>15+</h3>
+            <h3>7+</h3>
             <p>Années d’expérience</p>
           </div>
 
           <div className="stat">
-            <h3>5000+</h3>
+            <h3>500+</h3>
             <p>Références produits</p>
           </div>
 
           <div className="stat">
-            <h3>2000+</h3>
+            <h3>200+</h3>
             <p>Clients satisfaits</p>
           </div>
 
@@ -239,21 +236,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="brands-section">
-        <div className="section-title">
-          <h2>Marques Partenaires</h2>
-          <p>Nous travaillons avec les leaders de l’industrie</p>
-        </div>
-
-        <div className="brands-list">
-          <span>VOLVO</span>
-          <span>SCANIA</span>
-          <span>MAN</span>
-          <span>MB</span>
-          <span>DAF</span>
-          <span>IVECO</span>
-        </div>
-      </section>
+   
     </div>
   );
 }

@@ -191,3 +191,18 @@
     justify-content: center;
   }
 }
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+}

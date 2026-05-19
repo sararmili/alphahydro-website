@@ -16,7 +16,7 @@ import aboutProduct from "../../assets/images/Apropos2.png";
 export default function About() {
   return (
     <div className="about-page">
-      <Navbar />
+    
 
       <section
         className="about-hero"

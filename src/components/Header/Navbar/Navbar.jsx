@@ -1,80 +1,78 @@
 import "./Navbar.css";
-import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from "../../../assets/images/logooo.png";
 
 export default function Navbar() {
   return (
     <>
       <div className="top-bar">
         <div className="nav-container top-content">
-         <div className="top-links">
-  <span>
-    <FaMapMarkerAlt className="top-icon" /> Localisation du magasin
-  </span>
+          <div className="top-links">
+            <a
+                href="https://www.google.com/maps/place/34%C2%B013'36.0%22N+4%C2%B000'32.0%22W/@34.22654,-4.0105567,18z/data=!4m4!3m3!8m2!3d34.2266655!4d-4.0088892?hl=fr&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaMapMarkerAlt className="top-icon" /> Localisation du magasin
+            </a>
 
-  <span>
-    <a href="tel:+212600000000">
-     <FaPhoneAlt className="top-icon" /> Contact
-    </a>
-  </span>
-</div>
+            <span>
+              <a href="tel:+212689777336">
+                <FaPhoneAlt className="top-icon" /> Contact
+              </a>
+            </span>
+          </div>
 
           <div className="top-hours">
-            Lun - Ven: 8h00 - 18h00 | Sam: 9h00 - 13h00
+            Lun - Ven: 9h00-13h00 / 15h00-18h30 | Sam: 9h00 - 16h00
           </div>
         </div>
       </div>
 
       <header className="main-navbar">
-        <div className="nav-container nav-content">
-          <div className="brand-logo">
-            <div className="brand-icon">AH</div>
-            <div>
-              <h2><span>Alpha</span>Hydro</h2>
-              <p>PIÈCES INDUSTRIELLES</p>
-            </div>
-          </div>
+  <div className="nav-container nav-content">
 
-<<<<<<< HEAD:src/components/Header/Navbar/Navbar.jsx
-  <nav className="menu-links">
-  <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
-    Accueil
-  </NavLink>
+    <div className="brand-logo">
+      <img
+        src={logo}
+        alt="AlphaHydro Logo"
+        className="navbar-logo"
+      />
+    </div>
 
-  <NavLink to="/produits" className={({ isActive }) => (isActive ? "active" : "")}>
-    Produits
-  </NavLink>
+    <nav className="menu-links">
+      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+        Accueil
+      </NavLink>
 
-  <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
-    À Propos
-  </NavLink>
+      <NavLink to="/produits" className={({ isActive }) => (isActive ? "active" : "")}>
+        Produits
+      </NavLink>
 
-  <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
-    Contact
-  </NavLink>
-</nav>
-=======
-          <nav className="menu-links">
-            <a className="active" href="/">Accueil</a>
-            <a href="/produits">Produits</a>
-            <a href="/about">À Propos</a>
-            <a href="tel:+212600000000">
-              <FaPhoneAlt className="top-icon" /> Contact
-            </a>
-          </nav>
->>>>>>> cbde6eeb34b1197f7c109ce14eaf5dacef20efa6:src/components/Navbar/Navbar.jsx
+      <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+        À Propos
+      </NavLink>
 
-        <div className="right-contact">
-  
-    <a className="whatsapp-main" href="https://wa.me/212600000000">
-  <FaWhatsapp className="whatsapp-icon" />
-  WhatsApp
-</a>
- 
-</div>
-        </div>
-      </header>
+      <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+        Contact
+      </NavLink>
+    </nav>
+
+    <div className="right-contact">
+      <a
+        className="whatsapp-main"
+        href="https://wa.me/212689777336"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaWhatsapp className="whatsapp-icon" />
+        WhatsApp
+      </a>
+    </div>
+
+  </div>
+</header>
     </>
   );
 }
