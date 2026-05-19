@@ -1,28 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
 import Products from "./pages/Products/Products";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Header/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Contact from "./pages/Contact/Contact";
+import Contact from "./pages/Home/Contact/Contact";
 
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar /> 
+      <Navbar />
 
       <Routes>
-        <Route path="/" element={<Products />} />
+        <Route path="/" element={<Home />} />
         <Route path="/produits" element={<Products />} />
         <Route path="/produits/:id" element={<ProductDetails />} />
-        <Route path="*" element={<Products />} />
-        <Route path="/Contact" element={<Contact />} />
-
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
-      <Footer /> 
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./Footer.css";
 import { FaFacebookF, FaWhatsapp} from "react-icons/fa";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
@@ -85,4 +86,102 @@ export default function Footer() {
       </div>
     </footer>
   );
+=======
+import "./Footer.css";
+import { FaFacebookF, FaWhatsapp} from "react-icons/fa";
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaClock } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-container">
+
+        {/* LEFT */}
+        <div className="footer-col">
+          <h2 className="logo">
+            <span>Alpha</span>Hydro
+          </h2>
+          <p>
+           Spécialiste en pièces détachées et accessoires pour engins de chantier CAT, garantissant qualité et performance.
+          </p>
+
+          <div className="socials">
+              <a href="https://facebook.com" target="_blank" rel="noreferrer">
+              <FaFacebookF />
+              </a>
+
+              <a href="https://wa.me/212623456789" target="_blank" rel="noreferrer">
+              <FaWhatsapp />
+              </a>
+          </div>
+        </div>
+
+        {/* NAV */}
+        <div className="footer-col">
+          <h3>Navigation</h3>
+          <ul>
+            <li>Accueil</li>
+            <li>Produits</li>
+            <li>Catégories</li>
+            <li>À Propos</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        {/* CONTACT */}
+        <div className="footer-col">
+          <h3>Contact</h3>
+
+          <div className="contact-item">
+            <FaMapMarkerAlt />
+            <span>Zone Industrielle Sud</span>
+          </div>
+
+          <div className="contact-item">
+            <span>123 Avenue des Poids Lourds</span>
+          </div>
+
+          
+
+          <div className="contact-item">
+            <FaPhoneAlt />
+            <span>+212 6 23 45 67 89</span>
+          </div>
+
+          <div className="contact-item">
+            <FaEnvelope />
+            <span>contact@alphahydro.fr</span>
+          </div>
+        </div>
+
+        {/* HOURS */}
+        <div className="footer-col">
+          <h3>Horaires d'ouverture</h3>
+
+          <div className="contact-item">
+            <FaClock />
+            <span>Lundi - Vendredi</span>
+          </div>
+          <p>8h00 - 18h00</p>
+
+          <div className="contact-item">
+            <FaClock />
+            <span>Samedi</span>
+          </div>
+          <p>9h00 - 13h00</p>
+
+          <div className="contact-item">
+            <FaClock />
+            <span>Dimanche</span>
+          </div>
+          <p>Fermé</p>
+        </div>
+      </div>
+
+      <div className="footer-bottom">
+        © 2026 AlphaHydro. Tous droits réservés.
+      </div>
+    </footer>
+  );
+>>>>>>> 5ac52af930eb731b6c3511cb7b729258437873f6
 }
