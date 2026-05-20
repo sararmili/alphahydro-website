@@ -6,7 +6,7 @@ import Products from "./pages/Products/Products";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Navbar from "./components/Header/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import Contact from "./pages/Home/Contact/Contact";
+import Contact from "./pages/Contact/Contact";
 
 import "./App.css";
 
