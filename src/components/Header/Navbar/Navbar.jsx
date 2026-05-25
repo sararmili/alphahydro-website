@@ -62,7 +62,7 @@ export default function Navbar() {
     <div className="right-contact">
       <a
         className="whatsapp-main"
-        href="https://wa.me/212689777336"
+        href="https://wa.me/212661424896"
         target="_blank"
         rel="noreferrer"
       >

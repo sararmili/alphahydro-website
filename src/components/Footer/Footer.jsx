@@ -24,7 +24,7 @@ export default function Footer() {
               </a>
 
                <a 
-                  href="https://wa.me/212689777336" 
+                  href="https://wa.me/212661424896" 
                   target="_blank" 
                   rel="noreferrer"
                 >
@@ -57,7 +57,7 @@ export default function Footer() {
 
           <div className="contact-item">
             <FaPhoneAlt />
-            <span>+212 6 89 77 73 36</span>
+            <span>+212 6 61 42 48 96</span>
           </div>
 
           <div className="contact-item">

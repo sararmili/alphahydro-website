@@ -17,7 +17,7 @@ export default function Header() {
           <a href="/produits">Produits</a>
           <a href="/about">À Propos</a>
           <a href="/contact">Contact</a>
-          <a className="whatsapp-btn" href="https://wa.me/212689777336">
+          <a className="whatsapp-btn" href="https://wa.me/212661424896">
             WhatsApp
           </a>
         </nav>

@@ -14,7 +14,7 @@ export default function Navbar() {
   </span>
 
   <span>
-    <a href="tel:+212689777336">
+    <a href="tel:+212661424896">
      <FaPhoneAlt className="top-icon" /> Contact
     </a>
   </span>
@@ -56,7 +56,7 @@ export default function Navbar() {
 
         <div className="right-contact">
   
-    <a className="whatsapp-main" href="https://wa.me/212689777336">
+    <a className="whatsapp-main" href="https://wa.me/212661424896">
   <FaWhatsapp className="whatsapp-icon" />
   WhatsApp
 </a>

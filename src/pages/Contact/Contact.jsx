@@ -25,7 +25,7 @@ export default function Contact() {
   });
 
   const handleChange = (e) => {
-    setFormData({
+    setFormData({ 
       ...formData,
       [e.target.name]: e.target.value,
     });
@@ -153,9 +153,8 @@ export default function Contact() {
                   <div className="info-icon"><FaMapMarkerAlt /></div>
                   <div>
                     <h4>Adresse</h4>
-                    <p>Zone Industrielle Sud</p>
-                    <p>123 Avenue des Poids Lourds</p>
-                    <p>Agadir, Maroc</p>
+                    <p>ANGLE DE MOHAMED CHAOUI ET CKB BNOU NAFIAE Imm 42 - TAZA</p>
+                    
                   </div>
                 </div>
 
@@ -163,7 +162,7 @@ export default function Contact() {
                   <div className="info-icon"><FaPhoneAlt /></div>
                   <div>
                     <h4>Téléphone</h4>
-                    <p>+212 6 23 45 67 89</p>
+                    <p>+212 6 61 42 48 96</p>
                   </div>
                 </div>
 
@@ -171,7 +170,7 @@ export default function Contact() {
                   <div className="info-icon"><FaEnvelope /></div>
                   <div>
                     <h4>Email</h4>
-                    <p>contact@alphahydro.fr</p>
+                    <p>stealphahydro@gmail.com</p>
                   </div>
                 </div>
 
@@ -179,8 +178,9 @@ export default function Contact() {
                   <div className="info-icon"><FaClock /></div>
                   <div>
                     <h4>Horaires</h4>
-                    <p>Lundi - Vendredi : 8h00 - 18h00</p>
-                    <p>Samedi : 9h00 - 13h00</p>
+                    <p>Lundi - Samedi :</p>
+                    <p>9h00 - 13h00</p>
+                    <p>15h00 - 18h30</p>
                     <p>Dimanche : Fermé</p>
                   </div>
                 </div>

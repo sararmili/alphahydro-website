@@ -76,7 +76,7 @@ function ProductDetails() {
             <div className="buttons-group">
               <a
                 className="whatsapp-btn"
-                href={`https://wa.me/212700808100?text=Bonjour, je veux ${product.name}`}
+                href={`https://wa.me/212661424896?text=Bonjour, je veux ${product.name}`}
                 target="_blank"
                 rel="noreferrer"
               >
